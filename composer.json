@@ -3,6 +3,9 @@
   "description": "Slim, PSR-14 Event Manager lightweight micro implementation (2.11Kb)",
   "version": "1.0.0",
   "type": "library",
+  "license": [
+    "MIT"
+  ],
   "keywords": [
     "Dissonance PSR-14",
     "PSR-14",
