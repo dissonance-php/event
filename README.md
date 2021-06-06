@@ -8,6 +8,11 @@ README.RU.md  [РУССКОЕ ОПИСАНИЕ](https://github.com/dissonance-ph
 - Can be shared with your DI container
 - No private properties and methods
 
+## Installation
+```
+composer require dissonance/event 
+```
+
 ## Usage
 ##### Basic
 ```php
