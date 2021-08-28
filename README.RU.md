@@ -1,4 +1,4 @@
-# Dissonance Event Dispatcher
+# Symbiotic Event Dispatcher
 
 ## Характеристики
 
@@ -10,14 +10,14 @@
 
 ## Installation
 ```
-composer require dissonance/event 
+composer require symbiotic/event 
 ```
 
 ## Использование
 ##### Базовое
 ```php
-use Dissonance\Event\ListenerProvider;
-use Dissonance\Event\EventDispatcher;
+use Symbiotic\Event\ListenerProvider;
+use Symbiotic\Event\EventDispatcher;
 
 $listeners  = new ListenerProvider();
 $dispatcher = new EventDispatcher($listeners);
@@ -37,8 +37,8 @@ $dispatcher->dispatch(new \MyEvents\FirstEvent());
 
 
 ```php
-use Dissonance\Event\ListenerProvider;
-use Dissonance\Event\EventDispatcher;
+use Symbiotic\Event\ListenerProvider;
+use Symbiotic\Event\EventDispatcher;
 
 /**
  * @var \Closure|string $listener 

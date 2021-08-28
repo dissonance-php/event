@@ -1,5 +1,5 @@
-# Dissonance Event Dispatcher
-README.RU.md  [РУССКОЕ ОПИСАНИЕ](https://github.com/dissonance-php/event/blob/master/README.RU.md)
+# Symbiotic Event Dispatcher
+README.RU.md  [РУССКОЕ ОПИСАНИЕ](https://github.com/symbiotic-php/event/blob/master/README.RU.md)
 ## Features
 
 - Compatible with PSR-14
@@ -10,14 +10,14 @@ README.RU.md  [РУССКОЕ ОПИСАНИЕ](https://github.com/dissonance-ph
 
 ## Installation
 ```
-composer require dissonance/event 
+composer require symbiotic/event 
 ```
 
 ## Usage
 ##### Basic
 ```php
-use Dissonance\Event\ListenerProvider;
-use Dissonance\Event\EventDispatcher;
+use Symbiotic\Event\ListenerProvider;
+use Symbiotic\Event\EventDispatcher;
 
 $listeners  = new ListenerProvider();
 $dispatcher = new EventDispatcher($listeners);
@@ -37,8 +37,8 @@ You can wrap the subscribers yourself and handle the event
  for example, you can pass the event to a class or execute it through your DI container.
 
 ```php
-use Dissonance\Event\ListenerProvider;
-use Dissonance\Event\EventDispatcher;
+use Symbiotic\Event\ListenerProvider;
+use Symbiotic\Event\EventDispatcher;
 
 /**
  * @var \Closure|string $listener  you can wrap the subscribers yourself and handle the event,
