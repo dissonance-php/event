@@ -1,7 +1,7 @@
 {
   "name": "symbiotic/event",
-  "description": "Slim, PSR-14 Event Manager lightweight micro implementation (2.11Kb)",
-  "version": "1.0.2",
+  "description": "Slim, PSR-14 Event Manager lightweight micro implementation",
+  "version": "1.4.0",
   "type": "library",
   "license": [
     "MIT"
@@ -13,8 +13,8 @@
     "PSR-14 Event Dispatcher"
   ],
   "require": {
-    "php": ">=7.2.0",
-    "symbiotic/event-contracts": "1.0.1"
+    "php": ">=8.0",
+    "symbiotic/event-contracts": "1.4.0"
   },
   "provide": {
     "psr/event-dispatcher-implementation": "1.0",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "\\Symbiotic\\Event\\": "src/Event/"
+      "Symbiotic\\Event\\": "src/Event/"
     }
   }
 }
